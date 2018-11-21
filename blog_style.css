@@ -1,0 +1,17 @@
+body {background-color: rgb(223, 255, 210);}
+h1 {color: black;
+	font-family: "Brush Script MT", cursive; 
+	font-size: 3.5em;
+	text-align: center;}
+	
+#motto {color: rgb(78, 78, 78);
+	font-family: serif;
+	text-align: center;	
+	font-size: 0.8em;}
+	
+#authorname {color: black;
+	font-family: cursive;
+	//font-weight: bold;
+	font-style: italic;
+	font-size: 1.3em;
+	text-align: right;}
