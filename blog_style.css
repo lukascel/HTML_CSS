@@ -1,13 +1,24 @@
-body {background-color: rgb(223, 255, 210);}
+#container {
+	margin: 15px 30px 15px 30px;}
+#navigation {
+	background-color: white;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	padding: 10px;
+	//position: fixed;
+	z-index: 1;}
+
 h1 {color: black;
 	font-family: "Brush Script MT", cursive; 
 	font-size: 3.5em;
-	text-align: center;}
+	text-align: center;
+	text-shadow: 3px -3px 0 rgba(0,0,0, 0.3);}
 	
 #motto {color: rgb(78, 78, 78);
 	font-family: serif;
 	text-align: center;	
-	font-size: 0.8em;}
+	font-size: 0.8em;
+	font-weight: bold;}
 	
 #authorname {color: black;
 	font-family: cursive;
@@ -15,3 +26,29 @@ h1 {color: black;
 	font-style: italic;
 	font-size: 1.3em;
 	text-align: right;}
+	
+#tags {font-size: 0.9em;
+		//text-align: justify;}
+
+#p1_content {
+	text-align: justify;
+}
+#o_mnie_container {
+		width: 70%;
+		margin: auto;}
+
+#LC_info_content {
+	text-align: justify;
+}
+
+#scotland_pic {
+	width: 50%;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;}		
+
+#LC_pic {
+	width: 15%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;}
